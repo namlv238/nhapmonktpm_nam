@@ -2,7 +2,7 @@
 	pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@page import="java.util.List"%>
-<%@page import="hai.duong.Ass.Entity.Cart"%>
+<%@page import="lenam.Ass.Entity.Cart"%>
 <!DOCTYPE html>
 <html lang="en">
 

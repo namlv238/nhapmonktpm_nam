@@ -2,15 +2,15 @@
 	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
-<%@page import="hai.duong.Ass.Entity.Cart"%>
-<%@page import="hai.duong.Ass.Entity.hoadon"%>
-<%@page import="hai.duong.Ass.Entity.hoadonchitiet"%>
+<%@page import="lenam.Ass.Entity.Cart"%>
+<%@page import="lenam.Ass.Entity.hoadon"%>
+<%@page import="lenam.Ass.Entity.hoadonchitiet"%>
 <%@page import="org.hibernate.Session"%>
 <%@page import="java.util.List"%>
 <%@page import="org.springframework.ui.ModelMap"%>
 <%@page import="org.hibernate.query.Query"%>
-<%@page import="hai.duong.Ass.Services.HoaDonServicesIpm"%>
-<%@page import="hai.duong.Ass.Services.HoaDonChiTietServicesIpm"%>
+<%@page import="lenam.Ass.Services.HoaDonServicesIpm"%>
+<%@page import="lenam.Ass.Services.HoaDonChiTietServicesIpm"%>
 <%@page import="javax.persistence.EntityManagerFactory"%>
 <%@page import="org.hibernate.SessionFactory"%>
 <%@page import="org.springframework.beans.factory.annotation.Autowired"%>
